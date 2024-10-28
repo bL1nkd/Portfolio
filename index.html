@@ -9,19 +9,20 @@
     <!-- Bootstrap for layout and responsive design -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <style>
+
         /* Top Navigation Container */
         .top-nav {
             width: 100%;
-            background-color: #000; /* Black background for the nav */
-            height: 60px; /* Adjusted height */
-            position: fixed; /* Fixed the nav on top */
+            background-color: #000; 
+            height: 60px; 
+            position: fixed; 
             top: 0;
             left: 0;
             z-index: 10;
-            display: flex; /* Flexbox for horizontal alignment */
-            align-items: center; /* Vertically center */
-            justify-content: space-between; /* Spread items across */
-            padding: 0 20px; /* Padding for left and right sides */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px; 
         }
 
         /* Navigation Title */
@@ -37,7 +38,7 @@
             list-style-type: none;
             margin: 0;
             padding: 0;
-            display: flex; /* Flexbox for horizontal layout */
+            display: flex; 
         }
 
         .nav-pills li {
@@ -47,35 +48,35 @@
 
         /* Links Style */
         .nav-pills li a {
-            color: #fff; /* White text */
+            color: #fff; 
             padding: 15px 20px;
-            text-decoration: none; /* Remove underline */
-            display: block; /* Full width clickable */
-            font-size: 18px; /* Slightly larger font */
+            text-decoration: none;
+            display: block;
+            font-size: 18px;
             font-weight: 500;
-            transition: background 0.3s ease; /* Smooth background transition */
+            transition: background 0.3s ease;
         }
 
         /* Hover Effect */
         .nav-pills li a:hover {
-            background-color: #fafafa; /* Light background color on hover */
-            color: #000; /* Ensure text stays black */
+            background-color: #fafafa; 
+            color: #000;
         }
 
         .nav-pills li:first-child a:hover {
-            background-color: #f0edf5; /* Violet hover color for Home */
+            background-color: #f0edf5; 
             color: #000;
         }
 
         /* Active Menu Item */
         .nav-pills li.active a {
-            background-color: #201f20; /* Highlight the active section */
-            font-weight: bold; /* Bold text for active section */
+            background-color: #201f20; 
+            font-weight: bold; 
         }
 
         /* Content Spacing for Fixed Nav */
         .content {
-            padding-top: 80px; /* Offset for fixed top nav */
+            padding-top: 80px; 
         }
 
         /* Home Section */
@@ -93,12 +94,12 @@
         }
 
         #home h1 {
-            font-size: 60px; /* Increased font size for the main heading */
+            font-size: 60px; 
             margin: 20px 0;
         }
 
         #home p {
-            font-size: 22px; /* Slightly larger font for subtext */
+            font-size: 22px; 
             margin-bottom: 30px;
         }
 
@@ -130,28 +131,22 @@
 
         .projects-container {
             display: flex;
-            justify-content: space-around; /* Space out the boxes */
-            flex-wrap: wrap; /* Allow wrapping on smaller screens */
-            margin: 20px auto;
-            max-width: 1200px; /* Max width for the container */
+            justify-content: space-around; 
+            flex-wrap: wrap; 
+            max-width: 3000px; 
         }
 
         .project-box {
-            background-color: #fff; /* White background for project boxes */
+            background-color: #fff; 
             border: 1px solid #ccc;
             border-radius: 10px;
             padding: 20px;
-            width: 5000px; /* Fixed width for project boxes */
-            margin: 10px; /* Margin between boxes */
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            width: 500px; 
+            margin: 10px; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
         }
 
-        .project-box img {
-            width: 100%; /* Image full width */
-            border-radius: 10px;
-            height: 150px; /* Fixed height for images */
-            object-fit: cover; /* Cover image without distortion */
-        }
+       
 
         /* Skills Section */
         #skills {
@@ -167,13 +162,13 @@
         }
 
         .skills-container ul {
-            list-style-type: none; /* Remove bullets */
+            list-style-type: none;
             padding: 0;
         }
 
         .skills-container li {
-            font-size: 18px; /* Font size for skills */
-            margin: 10px 0; /* Margin between skills */
+            font-size: 18px; 
+            margin: 10px 0; 
         }
 
         /* Experience Section */
@@ -190,13 +185,13 @@
         }
 
         .experience-container ul {
-            list-style-type: none; /* Remove bullets */
+            list-style-type: none; 
             padding: 0;
         }
 
         .experience-container li {
-            font-size: 18px; /* Font size for experiences */
-            margin: 10px 0; /* Margin between experiences */
+            font-size: 18px; 
+            margin: 10px 0; 
         }
 
         /* Call to Action */
@@ -204,7 +199,7 @@
             display: inline-block;
             margin: 10px;
             padding: 10px 20px;
-            background-color: #ffffff; /* Lavender-themed button */
+            background-color: #ffffff;
             color: #0f0e0e;
             text-decoration: none;
             border-radius: 5px;
@@ -213,9 +208,9 @@
 
         .call-to-action .btn:hover {
             background-color: #6464646b;
-            color: #fffdfd; /* Darker lavender for hover */
+            color: #fffdfd;
         }
-        /* Contact Section */
+/* Contact Section */
 #contact {
     padding: 50px;
     background-color: #f3f3f3;
@@ -226,39 +221,39 @@
 .contact-container {
     max-width: 600px;
     margin: auto;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
 
 .form-group {
-    margin-bottom: 20px; /* Spacing between form fields */
+    margin-bottom: 20px; 
 }
 
 label {
-    display: block; /* Block display for labels */
-    margin-bottom: 5px; /* Space between label and input */
+    display: block;
+    margin-bottom: 5px; 
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%; /* Full width for inputs */
-    padding: 10px; /* Padding for inputs */
-    border: 1px solid #ccc; /* Border for inputs */
-    border-radius: 5px; /* Rounded corners */
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
 }
 
 button {
-    background-color: #424242; /* Button color */
-    color: #fff; /* Button text color */
-    border: none; /* No border */
-    padding: 10px 20px; /* Padding for button */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #424242; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #cccccc;
-    color: #ffffff; /* Darker shade on hover */
+    color: #ffffff; 
 }
 
 
@@ -385,9 +380,6 @@ button:hover {
         </div>
     </section>
     
-
-
-    <!-- Footer -->
 <!-- Footer -->
 <footer style="text-align: center;">
     &copy; 2024 Maritoni Ros Portfolio
